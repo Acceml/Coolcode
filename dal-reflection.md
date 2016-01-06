@@ -1,4 +1,4 @@
-在写dal模块的时候，想要获取传入对象的属性，最后想到用放射，对应了cassandra表中的值——注解——getmethod的三者对应关系。
+在写dal模块的时候，想要获取传入对象的属性，最后想到用反射，对应了cassandra表中的值——注解——getmethod的三者对应关系。
 
 ```java
     //cassandraClient.java
