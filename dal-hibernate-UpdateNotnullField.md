@@ -1,5 +1,7 @@
 hibernate中更新非空域；传入一个对象，这个对象中有的域可能是null，但是我并不想覆盖原来的数据库中的有值的域。
-网络上的方法（设置`dynamic-update`）不适用这种场景：
+网络上的方法（设置`dynamic-update`）
+
+不适用这种场景：
 [设置dynamic-update](http://www.mkyong.com/hibernate/hibernate-dynamic-update-attribute-example/)
 自己用一种比较蠢的方法：
 ```java
